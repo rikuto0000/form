@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta chraset="UTF-8">
+        <title>購入フォーム</title>
+    </head>
+
+    <body>
+        <div class="buy-form">
+            <p class="title">ご購入はこちら</p>
+
+            <form action="" method=""post>
+                <div class="item">
+                    <label class="label">お名前</label>
+                    <input type="text" class="inputs" name="name" />
+                </div>
+
+                <div class="item">
+                    <label class="label">郵便番号</label>
+                    <input type="postcode" class="inputs" name="postcode" />
+                </div>
+
+                <div class="item">
+                    <label class="label">住所</label>
+                    <input type="adress" class="inputs" name="adress" />
+                </div>
+
+                <div class="item">
+                    <label class="label">Instagram ID</label>
+                    <input type="ID" class="inputs" name="ID" />
+                </div>
+
+                <br>
+
+                <div class="item">
+                    <label class="label">メインカラー</label>
+                    <input type="color" class="inputs" name="color" />
+                </div>
+                <div class="item">
+                    <p class="label">差し色</p>
+                    <div class="inputs">
+                      <input type="radio" name="color" id="gold" value="gold" /><label for="gold">ゴールド</label>
+                      <input type="radio" name="color" id="silver" value="silver" /><label for="silver">シルバー</label><br>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="item">
+                    <p class="label">希望プラン</p>
+                    <div class="inputs">
+                      <input type="radio" name="manu" id="1" value="1" /><label for="1">おまかせ（和花１本）               ¥5500</label><br>
+                      <input type="radio" name="manu" id="2" value="2" /><label for="2">おまかせ（和花２本）               ¥6000</label><br>
+                      <input type="radio" name="manu" id="3" value="3" /><label for="3">おまかせ（ぷっくりフラワー２本）    ¥6000</label><br>
+                      <input type="radio" name="manu" id="4" value="4" /><label for="4">フルカスタム（和花１本）           ¥6000</label><br>
+                      <input type="radio" name="manu" id="5" value="5" /><label for="5">フルカスタム（和花２本）           ¥6500</label><br>
+                      <input type="radio" name="manu" id="6" value="6" /><label for="6">フルカスタム（ぷっくりフラワー２本）¥6500</label><br>
+                      <input type="radio" name="manu" id="7" value="7" /><label for="7">２way                            ¥7400</label>
+                    </div>
+                </div>
+                
+                <br>
+
+                <div class="item">
+                    <p class="label">オプション</p>
+                        <label for="option">ぷっくりフラワー変更　１本７００円</label><br>
+                            <select id="option" name="option">
+                                <option value="0">０本</option>
+                                <option value="1">１本</option>
+                                <option value="2">２本</option>
+                                <option value="3">３本</option>
+                                <option value="4">４本</option>
+                                <option value="5">５本</option>
+                                <option value="6">６本</option>
+                                <option value="7">７本</option>
+                                <option value="8">８本</option>
+                                <option value="9">９本</option>
+                                <option value="10">１０本</option>
+                            </select>
+                        
+                </div>
+
+                <br>
+
+                <div class="item">
+                    <p class="label">支払方法</p>
+                    <div class="inputs">
+                        <input type="radio" name="pay" id="paypay" value="paypay"/><label for="paypay">paypay</label>
+                        <input type="radio" name="pay" id="bank" value="bank"/><label for="bank">銀行振込</label>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <p class="label">発送方法</p>
+                    <div class="inputs">
+                        <input type="radio" name="send" id="kani" value="kani"/><label for="kani">簡易書留</label>
+                        <input type="radio" name="send" id="click" value="click"/><label for="click">クリックポスト</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
